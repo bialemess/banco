@@ -1,0 +1,278 @@
+
+
+.buttonred {
+  color: #fff;
+  background-color: rgb(212, 42, 42);
+
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonred:hover {
+  background-color: rgb(10, 96, 102);
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(161, 46, 47);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  align-content: center;
+  text-align: center;
+  justify-content: space-between;
+
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  align-self: center;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  color: white;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 700px;
+  margin-top: 15px;
+  color: rgb(161, 46, 47);
+  
+    
+}
+
+.card button {
+  background-color: transparent;
+  border: none;
+}
+
+
+#zoom:hover {
+  transform: scale(1.05);
+  background-color: rgb(212, 42, 42);
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: none;
+}
+
+.form-container {
+  position: relative;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(10, 96, 102);
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.form-close {
+  font-size: 24px;
+  display: block;
+  text-align: right;
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.estilo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 250px;
+}
+
+.navbar1 {
+  background-color: rgb(10, 96, 102);
+  color: #fff;
+
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar1 button {
+  position: relative;
+  right: 10px;
+  margin-right: 10px
+}
+
+.navbar-header h5 {
+  margin-left: 20px;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header div {
+  float: right;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 127, 130);
+
+}
+
+footer {
+  background-color: rgb(10, 96, 102);
+  padding: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  /*border-radius: 20%;*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+
+svg {
+  color: white;
+}
+header {
+  background-color: rgb(10, 96, 102);
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.logo-container img {
+  max-height: 40px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin: 0;
+}
+
+.logout-container {
+  margin-left: auto;
+}
+
+.logout-button {
+  background-color: rgb(161, 46, 47);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+footer {
+  background-image: linear-gradient(rgb(0, 127, 130), rgb(10, 96, 102));
+  color: white;
+  padding: 60px;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  margin: 0 10px;
+}
+
+.logo-container img {
+  max-height: 40px;
+}
+
+.button-container {
+  margin: 0 10px;
+}
